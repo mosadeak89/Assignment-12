@@ -392,4 +392,107 @@ button{
 .show-more {
     text-align: center;
 }
+.review-box-header{
+    display: grid;
+    justify-content: space-between;
+    grid: 
+    'header-text btn-2'
+    
+}
+.header-text h2{
+font-size: 4.2rem;
+font-weight:600;
+color: var(--dark-text); 
+margin-bottom: 1.8rem;
+}
+.header-text p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 2.8rem;
+    margin-bottom: 7rem;
+}
+.review-box{
+    width: 37rem;
+    border: 1px solid #E2E2EB;
+    border-radius: 1rem;
+}
+.review-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 4rem 2rem 4rem 2rem;
+}
+.comment{
+    width: 32.6rem;
+font-size: 1.6rem;
+font-weight: 400;
+line-height: 2.8rem;
+text-align: justify;
+color: var(--text-color);
 
+}
+.client-name h6{
+font-size: 1.8rem;
+font-weight: 600;
+color: var(--dark-text);
+}
+.client-name p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--low-opicity-text);
+    margin-top: 0.5rem;
+}
+.box-image img{
+    margin-top: 1rem;
+    border-radius: 100%;
+    object-fit: cover;
+    height: 5.5rem;
+    width: 5.5rem;
+    
+}
+.ster{
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    gap: 0.6rem;
+}
+.review{
+    display: grid;
+    grid: 
+    'review-box review-box review-box';
+    gap: 3rem;
+}
+.first{
+    box-shadow: 0px 18px 46px 0px #21202A14;
+
+}
+.resume-section{
+    width: 100rem;
+    height: 30rem;
+    margin: auto;
+    background-color: #3936C4;
+    border-radius: 0.8rem;
+    padding: 5rem;
+}
+.resume h2{
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 5.2rem;
+    width: 60rem;
+    color: #fff;  
+}
+.btn-3{
+    padding: 1.5rem 2.5rem;
+    background-color: #FFF;
+    border-radius: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.resume-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
