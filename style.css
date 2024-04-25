@@ -496,3 +496,66 @@ color: var(--dark-text);
     justify-content: space-between;
     align-items: center;
 }
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 5rem 0rem 5rem;
+    background-image: url(./logo/BG.png);
+    object-fit: cover;
+    height: 46rem;
+    margin: auto;
+}
+.footer-btn img{
+height: 1.6rem;
+width: 1.6rem;
+}
+.footer-btn{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    background-color: #3936C4;
+    padding: 1.5rem 2.5rem;
+    cursor: pointer;
+    border-radius: .6rem;
+}
+.footer-header h2{
+font-size: 4.2rem;
+font-weight: 600;
+line-height: 5.2rem;
+color: white;
+}
+span{
+    text-decoration: underline;
+}
+.footer-btn h3{
+font-size: 16px;
+font-weight: 600;
+line-height: 28px;
+text-align: center;
+color: white;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.footer-items {
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+   
+}
+.footer-items a{
+font-size: 1.6rem;
+font-weight: 400;
+line-height: 2.8rem;
+text-align: center;
+color:  #B5BAC6;
+
+
+}
+
